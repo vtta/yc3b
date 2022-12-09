@@ -1,8 +1,4 @@
-# YCSB for Rust
+# `yc3b`
 
-This is a port of [YCSB](https://github.com/brianfrankcooper/YCSB) to Rust.
-
-## Authors
-
-* [Pekka Enberg](https://github.com/penberg)
-* [Alex Chi](https://github.com/skyzh)
+A 3rd try on [`ycsb`](https://github.com/brianfrankcooper/YCSB)'s `rust` implementation. Want to be composable as a library.
+Previous 2 tries: [`ycsb-rs`](https://github.com/penberg/ycsb-rs) and [`rust-ycsb`](https://github.com/skyzh/rust-ycsb).
