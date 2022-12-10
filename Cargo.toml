@@ -1,14 +1,16 @@
 [package]
-name = "ycsb"
+name = "yc3b"
 version = "0.0.0"
-authors = ["Pekka Enberg <penberg@chiselstrike.com>"]
+authors = ["Junliang HU <jlhu@cse.cuhk.edu.hk>", "Pekka Enberg <penberg@chiselstrike.com>"]
 edition = "2021"
 
 [dependencies]
 anyhow = "1.0"
+derive_builder = "0.12"
 log = "0.4"
 rand = {version = "0.8", features = ["small_rng"]}
 serde = { version = "1.0.130", features = ["derive"] }
+serde_with = "2.1"
 sql-builder = "3.1"
 sqlite = "0.26.0"
 structopt = "0.3.23"
